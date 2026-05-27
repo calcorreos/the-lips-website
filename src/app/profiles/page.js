@@ -1,24 +1,24 @@
 export const metadata = {
-  title: 'Profiles | The Lips',
+  title: 'Profiles | Team Lips',
 };
 
 // Initial 5 mock profiles
 const initialProfiles = [
-  { id: 1, name: 'Alex', role: 'The Organizer', bio: 'Always knows where the party is at.' },
-  { id: 2, name: 'Jordan', role: 'Vibe Checker', bio: 'Ensuring the vibes are immaculate 24/7.' },
-  { id: 3, name: 'Casey', role: 'The Artist', bio: 'Our resident creative genius. Designed the original lips.' },
-  { id: 4, name: 'Riley', role: 'Snack Manager', bio: 'Never shows up without a bag of chips.' },
-  { id: 5, name: 'Taylor', role: 'Hype Person', bio: 'Will scream for you when you do the bare minimum.' },
+  { id: 1, name: 'Alvin', role: 'Team Lips', bio: 'Here for the vibes.' },
+  { id: 2, name: 'Cale', role: 'Team Lips', bio: 'Here for the vibes.' },
+  { id: 3, name: 'Cam', role: 'Team Lips', bio: 'Here for the vibes.' },
+  { id: 4, name: 'John', role: 'Team Lips', bio: 'Here for the vibes.' },
+  { id: 5, name: 'Lex', role: 'Team Lips', bio: 'Here for the vibes.' },
 ];
 
 export default function Profiles() {
   return (
     <div>
       <h1 style={{ textAlign: 'center', fontSize: '3rem', color: 'var(--lips-pink)', marginBottom: '1rem' }}>
-        Meet The Lips 👄
+        Meet Team Lips 👄
       </h1>
       <p style={{ textAlign: 'center', color: '#ccc', marginBottom: '3rem' }}>
-        The founding 5. More profiles coming soon!
+        The founding 5.
       </p>
       
       <div className="profiles-grid">

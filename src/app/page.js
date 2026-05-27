@@ -3,13 +3,12 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="hero">
-      <h1>Welcome to The Lips 👄</h1>
+      <h1>Welcome to Team Lips 👄</h1>
       <p>
-        The official digital home for our friend group. Explore our profiles, read our story, 
-        and stay tuned for upcoming merch drops!
+        The Official Home of Team Lips. Join to learn about our history, people and next events.
       </p>
       <Link href="/profiles" className="btn">
-        Meet The Lips
+        Meet Team Lips
       </Link>
     </div>
   );
